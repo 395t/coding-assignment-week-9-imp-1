@@ -56,19 +56,26 @@ def load_stats_file(name: str) -> dict:
 
 
 if __name__ == "__main__":
-    t0 = load_stats_file("50002_reg5k")
-    t1 = load_stats_file("50002_adadelta")
-    t2 = load_stats_file("50002_adamw")
+    t0 = load_stats_file("SN_1000_pc_250")
+    t1 = load_stats_file("SN_1000_pc_500")
+    t2 = load_stats_file("SN_1000_pc_1000")
+    t3 = load_stats_file("SN_1000_pc_1500")
+    t4 = load_stats_file("SN_1000_pc_2048")
+
     test = [
         t0,
         t1,
         t2,
+        t3,
+        t4,
     ]
 
     labels = [
-        "Adam",
-        "Adadelta",
-        "AdamW",
+        "250 Points",
+        "500 Points",
+        "1000 Points",
+        "1500 Points",
+        "2048 (all) Points"
     ]
 
     compare_training_stats(test, labels)
