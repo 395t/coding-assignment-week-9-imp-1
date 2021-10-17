@@ -1,2 +1,11 @@
 .idea
 src/IGR/IGR/**
+src/IGR/**/*.ply
+**/.DS_Store
+src/IGR/scripts/OLD/**
+src/IGR/**/*.npy
+src/IGR/**/*.zip
+src/IGR/scripts/modelnet*/**
+src/IGR/scripts/shapenetcorev2*/**
+src/IGR/data/**
+src/IGR/**/*.html
