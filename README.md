@@ -19,6 +19,8 @@ Any code that you borrow or other reference should be properly cited.
 
 # IGR: Implicit Geometric Regualrization for Learning Shapes
 
+[Implementation of IGR can be found here](https://github.com/amosgropp/IGR)
+
 Reconstructing Surfaces
 -
 
