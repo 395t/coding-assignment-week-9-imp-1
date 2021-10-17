@@ -11,3 +11,4 @@ src/IGR/data/**
 src/IGR/**/*.html
 src/IGR/visuals/long_test/*.png
 src/IGR/visuals/long_test_annotated/*.png
+src/IGR/visuals/*/*.png

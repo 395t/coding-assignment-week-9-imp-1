@@ -16,7 +16,7 @@ I ran a set of ablation tests and compared results across datasets
 
 ![LongTestPlot](./visuals/IGR_LongTest.png)
 
-## Loss Ablations
+## Loss Ablations 5k Epochs
 
 - Normal Baseline
 - No Eikonal Norm
@@ -25,7 +25,10 @@ I ran a set of ablation tests and compared results across datasets
 
 ![Loss Ablation Plot](./visuals/IGR_Loss_Ablations.png)
 
-## Optimizer Tests
+![No normals](./visuals/no_norm_animation.gif)
+![No Eikonal](./visuals/no_eikonal_animated.gif)
+
+## Optimizer Tests 5k Epochs
 
 - Adam (original)
 - AdamW 
@@ -33,7 +36,7 @@ I ran a set of ablation tests and compared results across datasets
 
 ![Optimzer Plots](./visuals/IGR_Optimizers_Test.png)
 
-## Dataset Comparisons
+## Dataset Comparisons 5k Epochs
 
 - DFaust 
 - ShapeNetCore V2
@@ -45,7 +48,7 @@ I ran a set of ablation tests and compared results across datasets
 
 ![ModelNet 0 Animated](./visuals/modelnet0_animated.gif)
 
-## Point Cloud Sampling Test
+## Point Cloud Sampling Test 5k Epochs
 
 Sampling points per batch at 
 - 250 per batch
