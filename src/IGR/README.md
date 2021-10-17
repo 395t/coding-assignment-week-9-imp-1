@@ -67,3 +67,25 @@ Sampling points per batch at
 - All points are useful for single shape reconstruction
 - Adaptive Learning Rate optimizers are not helpful
 - Finer details appear after long epochs with diminishing returns
+
+
+# Table of Results
+
+| Experiment  | Epochs | Loss | Created Reasonable Mesh |
+| ------------- | ------------- | ------------- | ------------- |
+| Long Test  | 25,000  | 0.05 | yes |
+| Baseline  | 5,000  | .066 | yes |
+| No Eikonal  | 5,000  | 0.065 | yes |
+| Eikonal @ 0.5  | 5,000  | 0.068 | yes |
+| No Norms  | 5,000  | 0.002 | No |
+| AdamW  | 5,000  | 0.07 | yes |
+| AdaDelta  | 5,000  | 0.25 | yes |
+| ShapeNet Phone  | 5,000  | .01 | yes |
+| ModelNet Table  | 5,000  | 0.003 | yes* (filled in holes) |
+| ShapeNet Speaker @ 250pts  | 5,000  | 0.019 | yes |
+| ShapeNet Speaker @ 500pts  | 5,000  | 0.008 | yes |
+| ShapeNet Speaker @ 1000pts  | 5,000  | 0.006 | yes |
+| ShapeNet Speaker @ 1500pts  | 5,000  | 0.008 | yes |
+| ShapeNet Speaker @ 2048pts (all)  | 5,000  | 0.007 | yes |
+
+
