@@ -9,3 +9,5 @@ src/IGR/scripts/modelnet*/**
 src/IGR/scripts/shapenetcorev2*/**
 src/IGR/data/**
 src/IGR/**/*.html
+src/IGR/visuals/long_test/*.png
+src/IGR/visuals/long_test_annotated/*.png
