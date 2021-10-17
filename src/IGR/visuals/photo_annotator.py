@@ -7,8 +7,8 @@ import cv2
 
 __CURR_DIR__ = Path(__file__).resolve().parent
 
-IMGS = __CURR_DIR__ / "long_test"
-OUT = __CURR_DIR__ / "long_test_annotated"
+IMGS = __CURR_DIR__ / "modelnet0"
+OUT = __CURR_DIR__ / "modelnet0_annotated"
 
 def get_frames(frames_path: Path = IMGS):
     def sorter(item):

@@ -41,6 +41,10 @@ I ran a set of ablation tests and compared results across datasets
 
 ![Dataset Comparison Plot](./visuals/IGR_Dataset_Comparison.png)
 
+![ShapeNet 0 Animated](./visuals/shapenet0_animated.gif)
+
+![ModelNet 0 Animated](./visuals/modelnet0_animated.gif)
+
 ## Point Cloud Sampling Test
 
 Sampling points per batch at 
