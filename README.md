@@ -113,6 +113,11 @@ Sampling points per batch at
 # SIREN: Implicit Neural Activations with Periodic Activation Functions
 
 Image Reconstruction
+-
+
+SIREN optimizes the implicit function as a form of an equation of their gradients, laplacians, higher order terms etc.
+
+The following example shows the process of SIREN approximating an image with and the gradients, laplacians over time.
 
 ![cameraman_0](https://user-images.githubusercontent.com/25853995/137651682-eedace5c-de85-4782-a2c6-d879eae06582.png)
 ![cameraman_99](https://user-images.githubusercontent.com/25853995/137651690-ac485956-b742-47ec-88ea-65fb6a0e6ee7.png)
