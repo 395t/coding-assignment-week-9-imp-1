@@ -1,20 +1,25 @@
-# coding-template
+## Implicit functions - Week 9 Group 1
+Papers covered in our repo:
+* 	DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation, Park, Florence, Straub, Newcombe, Lovegrove; 2019
+* 	Occupancy Networks: Learning 3D Reconstruction in Function Space, Mescheder, Oechsle, Niemeyer, Nowozin, Geiger; 2018
+* 	Implicit Geometric Regularization for Learning Shapes, Gropp, Yariv, Haim, Atzmon, Lipman; 2020
+* 	Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains, Tancik, Srinivasan, Mildenhall, Fridovich-Keil, Raghavan, Singhal, Ramamoorthi, Barron, Ng; 2020
+* 	Implicit Neural Representations with Periodic Activation Functions, Sitzmann, Martel, Bergman, Lindell, Wetzstein; 2020
 
-## Summary
+### Datasets
+Each paper had different datasets processed specifically for their models. Finding common datasets was challenging. The following datasets were used across the models:
+* DFaust
+* ShapeNetCore V2
+* ModelNet 10
 
-The summary can contain but is not limited to:
+### Architectures
+Each paper presented different applications and networks, so there is no common backbone network for this project.
 
-- Code structure.
 
-- Commands to reproduce your experiments.
-
-- Write-up of your findings and conclusions.
-
-- Ipython notebooks can be organized in `notebooks`.
 
 ## Reference
-
-Any code that you borrow or other reference should be properly cited.
+* DeepSDF repository, by Schmidt, T. (facebookresearch). https://github.com/facebookresearch/DeepSDF
+* **TODO: Add other repos**
 
 
 # IGR: Implicit Geometric Regualrization for Learning Shapes
