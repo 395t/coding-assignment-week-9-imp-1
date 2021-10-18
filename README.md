@@ -20,6 +20,7 @@ Each paper presented different applications and networks, so there is no common 
 
 ## Reference
 * DeepSDF repository, by Schmidt, T. (facebookresearch). https://github.com/facebookresearch/DeepSDF
+* IGR - Implicit Geometric Regualrization for Learning Shapes repository. https://github.com/amosgropp/IGR
 * **TODO: Add other repos**
 
 
