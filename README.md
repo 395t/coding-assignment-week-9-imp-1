@@ -110,3 +110,13 @@ Sampling points per batch at
 | ShapeNet Speaker @ 2048pts (all)  | 5,000  | 0.007 | yes |
 
 
+# SIREN: Implicit Neural Activations with Periodic Activation Functions
+
+Image Reconstruction
+
+![cameraman_0](https://user-images.githubusercontent.com/25853995/137651682-eedace5c-de85-4782-a2c6-d879eae06582.png)
+![cameraman_99](https://user-images.githubusercontent.com/25853995/137651690-ac485956-b742-47ec-88ea-65fb6a0e6ee7.png)
+![cameraman_198](https://user-images.githubusercontent.com/25853995/137651694-59ff4476-44d8-4c2b-a241-63c482c00889.png)
+![cameraman_297](https://user-images.githubusercontent.com/25853995/137651697-403cceed-02cb-47be-bbbc-20032aacab1a.png)
+![cameraman_396](https://user-images.githubusercontent.com/25853995/137651702-2ecf3238-0c62-4c86-8f12-2bbfbe3271c6.png)
+![cameraman_495](https://user-images.githubusercontent.com/25853995/137651708-2386b38d-90c4-442c-9232-46924694045a.png)
