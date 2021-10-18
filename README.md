@@ -158,8 +158,8 @@ Mean (Standard Deviation)
 |         Basic          |    21.39 (2.83)     |   20.14 (2.77)   |
 |  Positional Encoding   |    27.19 (3.91)     |   27.06 (3.76)   |
 | Gaussian with scale 1  |    22.21 (2.94)     |   22.22 (2.78)   |
-| Gaussian with scale 10 |    27.65 (3.97)     |   27.63 (3.98)   |
-| Gaussian with scale 14 |    27.61 (4.18)     |   27.70 (4.17)   |
+| Gaussian with scale 10 |  **27.65 (3.97)**   |   27.63 (3.98)   |
+| Gaussian with scale 14 |    27.61 (4.18)     | **27.70 (4.17)** |
 
 
 
