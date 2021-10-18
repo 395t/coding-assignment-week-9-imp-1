@@ -113,7 +113,6 @@ Sampling points per batch at
 # SIREN: Implicit Neural Activations with Periodic Activation Functions
 
 ## Image Reconstruction
--
 
 SIREN optimizes the implicit function as a form of an equation of their gradients, laplacians, higher order terms etc.
 
@@ -127,16 +126,12 @@ The following example shows the process of SIREN approximating an image with and
 ![cameraman_495](https://user-images.githubusercontent.com/25853995/137651708-2386b38d-90c4-442c-9232-46924694045a.png)
 
 ## Poisson Equation
--
 
 Since SIREN approximates the underlining function wrt. constraints about its differentials at any order, it's easy to solve the Poisson equation by construction.
 
 We construct the constraints by gradients in order to do so assuming the gradients are everything we know.
 
 The following example shows that SIREN resonably reconstructed the original image.
-
-
-
 
 ![cameraman_poisson_100](https://user-images.githubusercontent.com/25853995/137652403-044b879b-e718-43f6-9755-090c6418bc60.png)
 ![cameraman_poisson_200](https://user-images.githubusercontent.com/25853995/137652406-5b6ad18d-fa96-4a29-a21a-d0bfc6a5de1c.png)
