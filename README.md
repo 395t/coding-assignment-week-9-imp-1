@@ -125,7 +125,7 @@ Sampling points per batch at
 
 # ![Text1_best](images/Text1_best.png)![Text2_best](images/Text2_best.png)
 
-![Nature_best_comp](/Users/ishankarora1100/Google Drive/UT/Fall2021/deep-learning/coding-assignment-week-9-imp-1/images/Nature_best_comp.png)
+![Nature_best_comp](images/Nature_best_comp.png)
 
 ![Text_best_comp](images/Text_best_comp.png)
 
