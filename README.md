@@ -122,13 +122,23 @@ Sampling points per batch at
 
 
 
-# ![Nature1_best](images/Nature1_best.png)![Nature2_best](images/Nature2_best.png)
 
-# ![Text1_best](images/Text1_best.png)![Text2_best](images/Text2_best.png)
+
+For the following experiments, I recreated some of the experiments done in the paper for the 2D image reconstruction task. 
+
+There are three different types of input mappings explored in the paper: Basic, Positional Encoding, and Gaussian. The performance of these mappings are compared with the results of using no input mapping. 
+
+Here are the input mapping definitions:
+
+![Input Mappings](images/input_mappings.png)
+
+### Visulation of the reconstructed 2D image given different types of mappings
 
 ![Nature_best_comp](images/Nature_best_comp.png)
 
 ![Text_best_comp](images/Text_best_comp.png)
+
+### Comparison of the training PSNR per epoch for different types of mapping schemes
 
 #### Nature picture PSNR
 
@@ -137,6 +147,31 @@ Sampling points per batch at
 #### Text picture PSNR
 
 ![Text_PSNR](images/Text_PSNR.png)
+
+### Test PSNR results for the dataset 
+
+Mean (Standard Deviation)
+
+|                        | Natural (16 images) | Text (16 images) |
+| :--------------------: | :-----------------: | :--------------: |
+|       No mapping       |    18.77 (2.78)     |   17.86 (2.53)   |
+|         Basic          |    21.39 (2.83)     |   20.14 (2.77)   |
+|  Positional Encoding   |    27.19 (3.91)     |   27.06 (3.76)   |
+| Gaussian with scale 1  |    22.21 (2.94)     |   22.22 (2.78)   |
+| Gaussian with scale 10 |    27.65 (3.97)     |   27.63 (3.98)   |
+| Gaussian with scale 14 |    27.61 (4.18)     |   27.70 (4.17)   |
+
+
+
+### Gaussian mapping scale variations
+
+Here we test different scales to multiply the Guassian mapping matrix **B** and see how that effects the final test PSNR.
+
+### ![Nature1_best](images/Nature1_best.png)![Nature2_best](images/Nature2_best.png)
+
+# ![Text1_best](images/Text1_best.png)![Text2_best](images/Text2_best.png)
+
+
 
 # SIREN: Implicit Neural Activations with Periodic Activation Functions
 
