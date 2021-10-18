@@ -36,7 +36,7 @@ given point cloud data.
 I ran a set of ablation tests and compared results across datasets
 
 ## Long Test: Shows reconstruction loss through 25,000 epochs
-    
+
 
 
 ![LongTest](./src/IGR/visuals/long_test_gif.gif)
@@ -116,6 +116,27 @@ Sampling points per batch at
 | ShapeNet Speaker @ 2048pts (all)  | 5,000  | 0.007 | yes |
 
 
+
+# Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains
+
+
+
+# ![Nature1_best](images/Nature1_best.png)![Nature2_best](images/Nature2_best.png)
+
+# ![Text1_best](images/Text1_best.png)![Text2_best](images/Text2_best.png)
+
+![Nature_best_comp](/Users/ishankarora1100/Google Drive/UT/Fall2021/deep-learning/coding-assignment-week-9-imp-1/images/Nature_best_comp.png)
+
+![Text_best_comp](images/Text_best_comp.png)
+
+#### Nature picture PSNR
+
+![Nature_PSNR](images/Nature_PSNR.png)
+
+#### Text picture PSNR
+
+![Text_PSNR](images/Text_PSNR.png)
+
 # SIREN: Implicit Neural Activations with Periodic Activation Functions
 
 ## Image Reconstruction
@@ -144,3 +165,4 @@ The following example shows that SIREN resonably reconstructed the original imag
 ![cameraman_poisson_300](https://user-images.githubusercontent.com/25853995/137652408-3c9ec847-d99e-4700-9c97-244550955074.png)
 ![cameraman_poisson_400](https://user-images.githubusercontent.com/25853995/137652414-ca9ced0c-fd37-4407-a14f-2ea6e39a95ef.png)
 ![cameraman_poisson_500](https://user-images.githubusercontent.com/25853995/137652420-4be235b4-e629-4d4a-bce0-8db3201cf326.png)
+
