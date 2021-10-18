@@ -1,4 +1,4 @@
-## Implicit functions - Week 9 Group 1
+# Implicit functions - Week 9 Group 1
 Papers covered in our repo:
 * 	DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation, Park, Florence, Straub, Newcombe, Lovegrove; 2019
 * 	Occupancy Networks: Learning 3D Reconstruction in Function Space, Mescheder, Oechsle, Niemeyer, Nowozin, Geiger; 2018
@@ -11,6 +11,7 @@ Each paper had different datasets processed specifically for their models. Findi
 * DFaust
 * ShapeNetCore V2
 * ModelNet 10
+* **TODO: Add other datasets**
 
 ### Architectures
 Each paper presented different applications and networks, so there is no common backbone network for this project.
