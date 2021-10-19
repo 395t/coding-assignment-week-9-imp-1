@@ -11,7 +11,6 @@ Each paper had different datasets processed specifically for their models. Findi
 * DFaust
 * ShapeNetCore V2
 * ModelNet 10
-* **TODO: Add other datasets**
 
 ### Architectures
 Each paper presented different applications and networks, so there is no common backbone network for this project.
@@ -21,7 +20,6 @@ Each paper presented different applications and networks, so there is no common 
 ## Reference
 * DeepSDF repository, by Schmidt, T. (facebookresearch). https://github.com/facebookresearch/DeepSDF
 * IGR - Implicit Geometric Regualrization for Learning Shapes repository. https://github.com/amosgropp/IGR
-* **TODO: Add other repos**
 
 
 # IGR: Implicit Geometric Regualrization for Learning Shapes
