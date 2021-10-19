@@ -132,9 +132,13 @@ Here are the input mapping definitions:
 
 ### Visualisation of the predicted reconstructed image over epochs
 
-|        No mapping        |           Basic            |         Positional Encoding          |          Gaussian (Scale 1)          |          Gaussian (Scale 10)           |          Gaussian (Scale 14)           |
-| :----------------------: | :------------------------: | :----------------------------------: | :----------------------------------: | :------------------------------------: | :------------------------------------: |
-| ![None](images/None.gif) | ![basic](images/basic.gif) | ![posenc_new](images/posenc_new.gif) | ![gaussian_1](images/gaussian_1.gif) | ![gaussian_10](images/gaussian_10.gif) | ![gaussian_14](images/gaussian_14.gif) |
+|        No mapping        |           Basic            |         Positional Encoding          |
+| :----------------------: | :------------------------: | :----------------------------------: |
+| ![None](images/None.gif) | ![basic](images/basic.gif) | ![posenc_new](images/posenc_new.gif) |
+
+|          Gaussian (Scale 1)          |          Gaussian (Scale 10)           |          Gaussian (Scale 14)           |
+| :----------------------------------: | :------------------------------------: | :------------------------------------: |
+| ![gaussian_1](images/gaussian_1.gif) | ![gaussian_10](images/gaussian_10.gif) | ![gaussian_14](images/gaussian_14.gif) |
 
 ### Visualisation of the reconstructed 2D image given different types of mappings
 
